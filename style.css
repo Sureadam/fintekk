@@ -297,6 +297,7 @@ section {
     gap: 48px;
     overflow-x: scroll;
     padding-left: 50px;
+    margin-tp: 32px;
 }
 .section img:nth-child(2) {
     width: 42.35px;
@@ -904,6 +905,26 @@ footer {
     .section {
         justify-content: space-between;
     }
+    .section img:first-child {
+        width: 108.32px;
+        height: 20px;
+    }
+    .section img:nth-child(2) {
+        width: 31.76px;
+        height: 24px;
+    }
+    .section img:nth-child(3) {
+        width: 64.92px;
+        height: 16px;
+    }
+    .section img:nth-child(4) {
+        width: 51.52px;
+        height: 21.37px;
+    }
+    .section img:nth-child(5) {
+        width: 88.76px;
+        height: 14px;
+    }
     .sect p {
         width: 300px;
         font-size: 28px;
@@ -1146,6 +1167,8 @@ footer {
     }
     .newsletter input {
         border: 1px solid #ffffff;
+        width: 100%;
+        border-radius: 16px;
     }
     .new {
         font-size: 38px;

@@ -622,6 +622,7 @@ aside .down {
 .newsletter input {
     border: none;
     border-right: none;
+    outline: none;
     border-radius: 30px;
     padding: 23px 35px;
     background-color: #2E5CFF;
